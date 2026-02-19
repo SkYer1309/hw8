@@ -86,9 +86,9 @@ public class Main {
                 arr1[i] += 1;
             }
         }
-            System.out.print(Arrays.toString(arr1) + "\n");
-        }
+        System.out.print(Arrays.toString(arr1) + "\n");
     }
+}
 
 
 
