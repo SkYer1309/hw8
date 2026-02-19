@@ -36,9 +36,32 @@ public class Main {
             System.out.print(" , ");
         }
         System.out.println("\nЗадача 3");
+        for (int i = 0; i <= arr1.length / 2; i++) {
+            int x = arr1[i];
+            arr1[i] = arr1[arr1.length - 1 - i];
+            arr1[arr1.length - 1 - i] = x;
+                  }
+        System.out.print(Arrays.toString(arr1)+"\n");
+
+        for (int i = 0; i <= arr1.length / 2; i++) {
+            float x = arr2[i];
+            arr2[i] = arr2[arr1.length - 1 - i];
+            arr2[arr1.length - 1 - i] = x;
+        }
+        System.out.print(Arrays.toString(arr2)+"\n");
+
+        for (int i = 0; i <= arr1.length / 2; i++) {
+            int x = arr3[i];
+            arr3[i] = arr3[arr3.length - 1 - i];
+            arr3[arr3.length - 1 - i] = x;
+        }
+        System.out.print(Arrays.toString(arr3)+"\n");
+
+        System.out.println("\nЗадача 3");
 
     }
 }
+
 
 
 
