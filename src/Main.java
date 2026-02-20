@@ -14,7 +14,7 @@ public class Main {
         System.out.println("\nЗадача 2");
         for (int i = 0; i < arr1.length; i++) {
             System.out.print(arr1[i]);
-            if (i == arr1.length - 1) {
+            if (i == arr2.length - 1) {
                 break;
             }
             System.out.print(" , ");
